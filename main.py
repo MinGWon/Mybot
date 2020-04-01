@@ -24,9 +24,11 @@ async def on_message(message):
     if message.author.bot: #만약 메시지를 보낸사람이 봇일 경우에는
         return None #동작하지 않고 무시합니다.
 
-    if message.content.startswith('/홀리'):
+    if message.content.startswith('/명령어'):
         embed=discord.Embed(title="sdf", description="sf")
-        embed.add_field(name="undefined", value="undefined", inline=False)
+        embed.add_field(name="짤 목록 보기", value="/짤", inline=False)
+        embed.add_field(name="문의하기", value="bot@myplaynetwork.ga", inline=False)
+        embed.set_footer(text="Copyright 2020. Myplay All Rights Reserved.")
         await client.send_message(message.channel, embed=embed)
         
     if message.content.startswith('/감자'):
