@@ -24,8 +24,9 @@ async def on_message(message):
     if message.author.bot: #만약 메시지를 보낸사람이 봇일 경우에는
         return None #동작하지 않고 무시합니다.
 
-    if message.content.startswith('!test'):
-        await client.send_message(message.channel, 'test!!!!2')
+    if message.content.startswith('!명령어'):
+        embed = discord.Embed(title="No Meal", description="급식이 없습니다.", color=0x00ff00)
+        await client.send_message(message.channel, embed=embed)
         
     if message.content.startswith('/감자'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/416968282470350858/694842481686216734/toystorygamza.jpg')
