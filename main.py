@@ -29,7 +29,7 @@ async def on_message(message):
         embed.add_field(name="소제목", value="설명", inline=false)
         embed.add_field(name="소제목", value="설명", inline=false)
         embed.add_field(name="소제목", value="설명", inline=false)
-        await client.send_message(message.channel, embed=embed)
+        await client.send_message(embed=embed)
         
     if message.content.startswith('/감자'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/416968282470350858/694842481686216734/toystorygamza.jpg')
