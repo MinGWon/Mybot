@@ -25,7 +25,10 @@ async def on_message(message):
         return None #동작하지 않고 무시합니다.
 
     if message.content.startswith('!test'):
-        await client.send_message(message.channel, 'test!!!!')
+        await client.send_message(message.channel, 'test!!!!2')
+        
+    if message.content.startswith('/감자'):
+        await client.send_message(message.channel, 'http://data.myplay.ga/toystorygamza.jpg')
         
 
 access_token = os.environ["BOT_TOKEN"]
