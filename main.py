@@ -25,12 +25,19 @@ async def on_message(message):
         return None #동작하지 않고 무시합니다.
 
     if message.content.startswith('/명령어'):
-        embed=discord.Embed(title="sdf", description="sf")
+        embed=discord.Embed(title="명령어 목록", description="명령어 목록을 확인하실 수 있습니다.")
         embed.add_field(name="짤 목록 보기", value="/짤", inline=False)
         embed.add_field(name="문의하기", value="contact@myplaynetwork.ga", inline=False)
         embed.set_footer(text="Copyright 2020. Myplay All Rights Reserved.")
         await client.send_message(message.channel, embed=embed)
-        
+
+    if message.content.startswith('/짤'):
+        embed=discord.Embed(title="짤 목록", description="짤 목록을 확인하실 수 있습니다.")
+        embed.add_field(name="토이스토리 감자", value="/감자", inline=False)
+        embed.add_field(name="문의하기", value="contact@myplaynetwork.ga", inline=False)
+        embed.set_footer(text="Copyright 2020. Myplay All Rights Reserved.")
+        await client.send_message(message.channel, embed=embed)      
+    
     if message.content.startswith('/감자'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/416968282470350858/694842481686216734/toystorygamza.jpg')
         
