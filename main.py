@@ -27,7 +27,7 @@ async def on_message(message):
     if message.content.startswith('/명령어'):
         embed=discord.Embed(title="sdf", description="sf")
         embed.add_field(name="짤 목록 보기", value="/짤", inline=False)
-        embed.add_field(name="문의하기", value="bot@myplaynetwork.ga", inline=False)
+        embed.add_field(name="문의하기", value="contact@myplaynetwork.ga", inline=False)
         embed.set_footer(text="Copyright 2020. Myplay All Rights Reserved.")
         await client.send_message(message.channel, embed=embed)
         
