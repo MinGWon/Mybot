@@ -25,8 +25,9 @@ async def on_message(message):
         return None #동작하지 않고 무시합니다.
 
     if message.content.startswith('/홀리'):
-        embed = discord.Embed(title="No Meal", description="급식이 없습니다.", color=0x00ff00)
-        await client.send_message(message.channel, embed=embed)
+        embed = discord.Embed(title="메인 제목", description="설명", color=0x62c1cc) # Embed의 기본 틀(색상, 메인 제목, 설명)을 잡아줍니다
+        embed.set_footer(text="하단 설명") # 하단에 들어가는 조그마한 설명을 잡아줍니다
+        await message.channel.send(embed=embed) # embed를 포함 한 채로 메시지를 전송합니다.
         
     if message.content.startswith('/감자'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/416968282470350858/694842481686216734/toystorygamza.jpg')
