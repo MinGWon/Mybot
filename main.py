@@ -24,8 +24,8 @@ async def on_message(message):
     if message.author.bot: #만약 메시지를 보낸사람이 봇일 경우에는
         return None #동작하지 않고 무시합니다.
 
-    if message.content.startswith('!커맨드'): #만약 해당 메시지가 '!커맨드' 로 시작하는 경우에는
-        await client.send_message(channel, '홀리홀리파워파워') #봇은 해당 채널에 '커맨드' 라고 말합니다.
+    if message.content.startswith('!test'):
+        await client.send_message(message.channel, 'test!!!!')
         
 
 access_token = os.environ["BOT_TOKEN"]
