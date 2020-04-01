@@ -28,7 +28,7 @@ async def on_message(message):
         await client.send_message(message.channel, 'test!!!!2')
         
     if message.content.startswith('/감자'):
-        await client.send_message(message.channel, 'http://data.myplay.ga/toystorygamza.jpg')
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/416968282470350858/694842481686216734/toystorygamza.jpg')
         
 
 access_token = os.environ["BOT_TOKEN"]
