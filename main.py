@@ -34,6 +34,8 @@ async def on_message(message):
     if message.content.startswith('/짤'):
         embed=discord.Embed(title="짤 목록", description="짤 목록을 확인하실 수 있습니다.")
         embed.add_field(name="토이스토리 감자", value="/감자", inline=False)
+        embed.add_field(name="우릭", value="/우릭", inline=False)
+        embed.add_field(name="모마 이겨따", value="/이겨따", inline=False)
         embed.add_field(name="문의하기", value="contact@myplaynetwork.ga", inline=False)
         embed.set_footer(text="Copyright 2020. Myplay All Rights Reserved.")
         await client.send_message(message.channel, embed=embed)      
