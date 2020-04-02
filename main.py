@@ -40,6 +40,12 @@ async def on_message(message):
     
     if message.content.startswith('/감자'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/416968282470350858/694842481686216734/toystorygamza.jpg')
+       
+    if message.content.startswith('/우릭'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/687209234026201088/694489006326546532/39bf6f8f36a6ec6d.png')
+        
+    if message.content.startswith('/이겨따'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/568748346764951552/694387615503220756/ads.PNG') 
         
 
 access_token = os.environ["BOT_TOKEN"]
