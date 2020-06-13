@@ -64,7 +64,7 @@ async def on_message(message):
     if message.content.startswith('납작이'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302181164351500/721303646608031744/sda.jpg')
 
-    if message.content.startswith('17은찬1')
+    if message.content.startswith('17은찬1'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303204398235658/8f9a7af148689c6c.png')
 
     if message.content.startswith('17은찬2'):
@@ -72,6 +72,21 @@ async def on_message(message):
 
     if message.content.startswith('17은찬3'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303502609186816/MyPhoto_1180184871_0021.jpeg')
+        
+    if message.content.startswith('네모'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721301986472886346/721302645771599923/nemo.png')
+
+    if message.content.startswith('홀리쥇더웅성이'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721303007542771773/721303052090605618/holyhouse.png')
+
+    if message.content.startswith('힛'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721305670581747772/20200604_223546.jpg')
+
+    if message.content.startswith('원따봉'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721305837699596369/image0-2.jpg')
+
+    if message.content.startswith('당황'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721306040695652392/20200426_093421.jpg')
                               
 
 access_token = os.environ["BOT_TOKEN"]
