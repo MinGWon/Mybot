@@ -61,7 +61,7 @@ async def on_message(message):
     if message.content.startswith('잉?'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721302441051553792/ing.png')
 
-    if message.content.startswith('관짝한결근데이제스노우를곁들인':
+    if message.content.startswith('관짝한결근데이제스노우를곁들인'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302181164351500/721303375525838928/gwanjjakbutincludesnow.jpg')
 
     if message.content.startswith('납작이'):
