@@ -39,9 +39,58 @@ async def on_message(message):
         embed.add_field(name="문의하기", value="contact@myplaynetwork.ga", inline=False)
         embed.set_footer(text="Copyright 2020. Myplay All Rights Reserved.")
         await client.send_message(message.channel, embed=embed)      
-    
+
     if message.content.startswith('딱대'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721303461110480906/cd152ce4fd7f7708.jpg')
+
+    if message.content.startswith('잘가'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721303421701062758/3b5dc9a978fd8d40.jpg')
+
+    if message.content.startswith('턱길이주작'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721303702937534514/jujak.jpg')
+
+    if message.content.startswith('후레쉬맨'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721302698300932157/hureshiman.PNG')
+
+    if message.content.startswith('법규산도'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721302513697030195/bupyouman.png')
+
+    if message.content.startswith('말이안나오는얼굴'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302717485678652/721302805251489792/dududunga.png')
+
+    if message.content.startswith('잉?'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721302441051553792/ing.png')
+
+    if message.content.startswith('관짝한결근데이제스노우를곁들인':
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302181164351500/721303375525838928/gwanjjakbutincludesnow.jpg')
+
+    if message.content.startswith('납작이'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302181164351500/721303646608031744/sda.jpg')
+
+    if message.content.startswith('17은찬1')
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303204398235658/8f9a7af148689c6c.png')
+
+    if message.content.startswith('17은찬2'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303493360484422/20180107_114556.jpg')
+
+    if message.content.startswith('17은찬3'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303502609186816/MyPhoto_1180184871_0021.jpeg')
+
+    if message.content.startswith('네모'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721301986472886346/721302645771599923/nemo.png')
+
+    if message.content.startswith('홀리쥇더웅성이'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721303007542771773/721303052090605618/holyhouse.png')
+
+    if message.content.startswith('힛'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721305670581747772/20200604_223546.jpg')
+
+    if message.content.startswith('원따봉':
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721305837699596369/image0-2.jpg')
+
+    if message.content.startswith('당황'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721306040695652392/20200426_093421.jpg')
+                              
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
