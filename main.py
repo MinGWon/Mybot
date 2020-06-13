@@ -66,15 +66,6 @@ async def on_message(message):
 
     if message.content.startswith('납작이'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302181164351500/721303646608031744/sda.jpg')
-
-    if message.content.startswith('17은찬1'):
-        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303204398235658/8f9a7af148689c6c.png')
-
-    if message.content.startswith('17은찬2'):
-        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303493360484422/20180107_114556.jpg')
-
-    if message.content.startswith('17은찬3'):
-        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302170984513556/721303502609186816/MyPhoto_1180184871_0021.jpeg')
         
     if message.content.startswith('네모'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721301986472886346/721302645771599923/nemo.png')
