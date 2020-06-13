@@ -85,7 +85,7 @@ async def on_message(message):
     if message.content.startswith('힛'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721305670581747772/20200604_223546.jpg')
 
-    if message.content.startswith('원따봉':
+    if message.content.startswith('원따봉'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721305837699596369/image0-2.jpg')
 
     if message.content.startswith('당황'):
