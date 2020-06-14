@@ -81,6 +81,9 @@ async def on_message(message):
 
     if message.content.startswith('당황'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721306040695652392/20200426_093421.jpg')
+        
+    if message.content.startswith('웅성'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302717485678652/721553252247666778/20200611_182017.gif')
                               
 
 access_token = os.environ["BOT_TOKEN"]
