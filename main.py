@@ -84,7 +84,18 @@ async def on_message(message):
         
     if message.content.startswith('웅성'):
         await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302717485678652/721553252247666778/20200611_182017.gif')
-                              
+    ---                         
+    if message.content.startswith('헤헿'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302181164351500/721559375747088405/20200614_113700.png')
+
+    if message.content.startswith('엄'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721303007542771773/721559916053266432/0d84877b6dc9b363.png')
+        
+    if message.content.startswith('콱마씨'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302321086201897/721560070533546034/20200614_101431.png')
+                       
+    if message.content.startswith('어'):
+        await client.send_message(message.channel, 'https://cdn.discordapp.com/attachments/721302190794211348/721560330844635197/20200614_101846.png')
 
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
